@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#container {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+input {
+  padding: 6px;
+  width: 60%;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f2f2f2;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+/* this class is added by JavaScript when a task is completed */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
